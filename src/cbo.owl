@@ -198,7 +198,10 @@
 
     <!-- http://comicmeta.org/cbo/ContentProperty -->
 
-    <owl:ObjectProperty rdf:about="http://comicmeta.org/cbo/ContentProperty"/>
+    <owl:ObjectProperty rdf:about="http://comicmeta.org/cbo/ContentProperty">
+        <rdfs:domain rdf:resource="http://comicmeta.org/cbo/Character"/>
+        <rdfs:range rdf:resource="http://comicmeta.org/cbo/Character"/>
+    </owl:ObjectProperty>
     
 
 
@@ -225,6 +228,17 @@
         <rdfs:comment xml:lang="en">Links a work to the comic work it is an adaptation of.</rdfs:comment>
         <rdfs:label xml:lang="en">adaptation of</rdfs:label>
         <vs:term_status>unstable</vs:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://comicmeta.org/cbo/addressesTopic -->
+
+    <owl:ObjectProperty rdf:about="http://comicmeta.org/cbo/addressesTopic">
+        <rdfs:subPropertyOf rdf:resource="http://comicmeta.org/cbo/ContentProperty"/>
+        <rdfs:domain rdf:resource="http://comicmeta.org/cbo/Balloon"/>
+        <rdfs:domain rdf:resource="http://comicmeta.org/cbo/Story"/>
+        <rdfs:range rdf:resource="http://comicmeta.org/cbo/Topic"/>
     </owl:ObjectProperty>
     
 
@@ -739,12 +753,30 @@
     
 
 
+    <!-- http://comicmeta.org/cbo/hasPage -->
+
+    <owl:ObjectProperty rdf:about="http://comicmeta.org/cbo/hasPage">
+        <rdfs:subPropertyOf rdf:resource="http://comicmeta.org/cbo/ContentProperty"/>
+        <rdfs:domain rdf:resource="http://comicmeta.org/cbo/Story"/>
+        <rdfs:range rdf:resource="http://comicmeta.org/cbo/Page"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://comicmeta.org/cbo/hasPanel -->
 
     <owl:ObjectProperty rdf:about="http://comicmeta.org/cbo/hasPanel">
         <rdfs:subPropertyOf rdf:resource="http://comicmeta.org/cbo/ContentProperty"/>
         <rdfs:domain rdf:resource="http://comicmeta.org/cbo/Page"/>
         <rdfs:range rdf:resource="http://comicmeta.org/cbo/Panel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://comicmeta.org/cbo/hasRelationWith -->
+
+    <owl:ObjectProperty rdf:about="http://comicmeta.org/cbo/hasRelationWith">
+        <rdfs:subPropertyOf rdf:resource="http://comicmeta.org/cbo/ContentProperty"/>
     </owl:ObjectProperty>
     
 
@@ -882,6 +914,16 @@
         <rdfs:comment xml:lang="en">Describes the material of which a physical item is composed.</rdfs:comment>
         <rdfs:label xml:lang="en">material</rdfs:label>
         <vs:term_status>unstable</vs:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://comicmeta.org/cbo/mentionsCharacter -->
+
+    <owl:ObjectProperty rdf:about="http://comicmeta.org/cbo/mentionsCharacter">
+        <rdfs:subPropertyOf rdf:resource="http://comicmeta.org/cbo/ContentProperty"/>
+        <rdfs:domain rdf:resource="http://comicmeta.org/cbo/Balloon"/>
+        <rdfs:range rdf:resource="http://comicmeta.org/cbo/Character"/>
     </owl:ObjectProperty>
     
 
@@ -1568,7 +1610,6 @@
 
     <owl:DatatypeProperty rdf:about="http://comicmeta.org/cbo/hasText">
         <rdfs:subPropertyOf rdf:resource="http://comicmeta.org/cbo/ContentProperty"/>
-        <rdfs:domain rdf:resource="http://comicmeta.org/cbo/Balloon"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -1775,7 +1816,6 @@
 
     <owl:DatatypeProperty rdf:about="http://comicmeta.org/cbo/right2left">
         <rdfs:subPropertyOf rdf:resource="http://comicmeta.org/cbo/ContentProperty"/>
-        <rdfs:domain rdf:resource="http://comicmeta.org/cbo/Story"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
@@ -2540,6 +2580,14 @@
         <rdfs:comment xml:lang="en">A thing in a comic universe.</rdfs:comment>
         <rdfs:label>Thing</rdfs:label>
         <vs:term_status>unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://comicmeta.org/cbo/Topic -->
+
+    <owl:Class rdf:about="http://comicmeta.org/cbo/Topic">
+        <rdfs:subClassOf rdf:resource="http://comicmeta.org/cbo/Sequence"/>
     </owl:Class>
     
 
