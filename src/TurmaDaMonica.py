@@ -112,7 +112,7 @@ with onto:
         page_instance.pageNumber = i  
         issue_instance.hasPage.append(page_instance)
 
-        if (i == 3 <= 29):
+        if (i >= 3 and i <= 29):
             story_1.hasPage.append(page_instance)
         elif (i == 31):
             story_2.hasPage.append(page_instance)
@@ -150,7 +150,7 @@ with onto:
             balloon = createBalloon(panel, i, 3, 4, cascao, text)
             balloon.mentionsCharacter.append(cebolinha)
         elif (i == 4):
-            panel = createPanel(page_instance, i, 1, cebolinha)
+            panel = createPanel(page_instance, i, 1, [cebolinha])
             text = "Eu tô falando do folmato delas!"
             createBalloon(panel, i, 1, 1, cebolinha, text)
             text = "Olha só!"
