@@ -153,6 +153,10 @@
   <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
 </owl:ObjectProperty>
 
+<owl:ObjectProperty rdf:about="http://purl.org/dc/terms/isPartOf">
+  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
+</owl:ObjectProperty>
+
 <owl:ObjectProperty rdf:about="binding">
   <rdfs:subPropertyOf rdf:resource="material"/>
   <rdfs:domain rdf:resource="Issue"/>
@@ -181,10 +185,6 @@
   <rdfs:comment xml:lang="en">Associates a box with a comic book collection.</rdfs:comment>
   <rdfs:label xml:lang="en">box</rdfs:label>
   <ns:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unstable</ns:term_status>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="http://purl.org/dc/terms/isPartOf">
-  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="cameo">
@@ -2984,6 +2984,149 @@
   <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</pageNumber>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="TM_Page_03_Panel_01">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_03_Panel_02">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_03_Panel_02_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_03_Panel_03">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_02"/>
+  <hasBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_03"/>
+  <hasBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_04"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_01">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_01_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_01_Balloon_02"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_01_Balloon_03"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_02">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_02_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_02_Balloon_02"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_02"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_03"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_04"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_02"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_03"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_04"/>
+  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_05"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_01">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_01_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_01_Balloon_02"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_02">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_02_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_02_Balloon_02"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_02"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_03"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_04"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_02"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_03"/>
+  <hasBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_04"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_01"/>
+  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_02"/>
+  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_03"/>
+  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_04"/>
+  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_05"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_02">
+  <rdf:type rdf:resource="Panel"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_03">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cascao"/>
+  <hasBalloon rdf:resource="TM_Page_06_Panel_03_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_04">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_05">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Monica"/>
+  <hasCharacter rdf:resource="Cebolinha"/>
+  <hasCharacter rdf:resource="Cascao"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="Monica">
   <rdf:type rdf:resource="Character"/>
   <says rdf:resource="TM_Page_03_Panel_03_Balloon_01"/>
@@ -2997,6 +3140,7 @@
   <says rdf:resource="TM_Page_05_Panel_04_Balloon_01"/>
   <says rdf:resource="TM_Page_06_Panel_01_Balloon_01"/>
   <says rdf:resource="TM_Page_06_Panel_03_Balloon_01"/>
+  <says rdf:resource="TM_Page_05_Panel_03_Balloon_01"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_01">
@@ -3008,6 +3152,54 @@
 <owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_02">
   <rdf:type rdf:resource="Balloon"/>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elas contaram alguma piada pra você?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Como é que é?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_02"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É mesmo!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_03"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hê, hê!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Que engraçado!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glup!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <mentionsCharacter rdf:resource="Cascao"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cascão!! Aquilo não era uma nuvem!!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Não, cabeção! A outra!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ele quis dizer 'borrão', seu engraçadinho!</hasText>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="Cebolinha">
@@ -3037,6 +3229,65 @@
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hunf!</hasText>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eu tô falando do folmato delas!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_01_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_04_Panel_01_Balloon_03"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olha só!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_01_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquela palece uma baleia!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_02_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquela lembla um elefante!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <mentionsCharacter rdf:resource="Monica"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É sélio, Mônica!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_04"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olha bem! Ali tem um telefone...</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_04">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">...E ali um balco à vela!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glup!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ela um disco voador de veldade!!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_03"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Você viu dileito?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eu só vi um bolão!</hasText>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="Cascao">
   <rdf:type rdf:resource="Character"/>
   <says rdf:resource="TM_Page_03_Panel_03_Balloon_04"/>
@@ -3058,6 +3309,72 @@
   <rdf:type rdf:resource="Balloon"/>
   <mentionsCharacter rdf:resource="Cebolinha"/>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engraçadas como, Cebolinha?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_02_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E aquela outra parece um hipopótamo deitado na grama fazendo bolhas de sabão!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_04">
+  <rdf:type rdf:resource="Balloon"/>
+  <addressesTopic rdf:resource="Disco_Voador"/>
+  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_05"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ah! E aquela parece um disco voador!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_05">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olha só!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_01_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquela ali, com formato circular e luzes coloridas, indo na direção contrária das outras!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_02_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_05_Panel_02_Balloon_02"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ah...</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_02_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">...sumiu!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_04"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oh!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_04">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali tem uma que parece uma ovelinha!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_04"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual?!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_04">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ovelha?!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_04">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_05"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolão?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_05">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Será que não era a Mônica?</hasText>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="Magali">
@@ -3136,32 +3453,6 @@
   <rdf:type rdf:resource="Topic"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="TM_Page_03_Panel_01">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_03_Panel_02">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_03_Panel_02_Balloon_01"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_03_Panel_03">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_02"/>
-  <hasBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_03"/>
-  <hasBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_04"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="Qual_é_o_Peixe?">
   <rdf:type rdf:resource="Story"/>
   <hasPage rdf:resource="TM_Page_38"/>
@@ -3180,296 +3471,6 @@
   <hasPage rdf:resource="TM_Page_47"/>
   <hasPage rdf:resource="TM_Page_48"/>
   <right2left rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</right2left>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_01">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_01_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_01_Balloon_02"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_01_Balloon_03"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_01_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eu tô falando do folmato delas!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_01_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_04_Panel_01_Balloon_03"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olha só!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_01_Balloon_03">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquela palece uma baleia!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_02">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_02_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_02_Balloon_02"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_02_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquela lembla um elefante!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_02_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E aquela outra parece um hipopótamo deitado na grama fazendo bolhas de sabão!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_02"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_03"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_04"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Como é que é?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <mentionsCharacter rdf:resource="Monica"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É sélio, Mônica!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_03">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_04_Panel_03_Balloon_04"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olha bem! Ali tem um telefone...</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_04">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">...E ali um balco à vela!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_02"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_03"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_04"/>
-  <hasBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_05"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_02"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É mesmo!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_03"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hê, hê!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_03">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Que engraçado!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_04">
-  <rdf:type rdf:resource="Balloon"/>
-  <addressesTopic rdf:resource="Disco_Voador"/>
-  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_05"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ah! E aquela parece um disco voador!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_05">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olha só!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_01">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_01_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_01_Balloon_02"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_01_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_01_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquela ali, com formato circular e luzes coloridas, indo na direção contrária das outras!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_02">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_02_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_02_Balloon_02"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_02_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_05_Panel_02_Balloon_02"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ah...</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_02_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">...sumiu!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_02"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_03"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_04"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glup!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glup!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_03">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_04"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oh!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_04">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali tem uma que parece uma ovelinha!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_02"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_03"/>
-  <hasBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_04"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <mentionsCharacter rdf:resource="Cascao"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cascão!! Aquilo não era uma nuvem!!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ela um disco voador de veldade!!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_03">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_05_Panel_04_Balloon_04"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual?!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_04">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ovelha?!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_01"/>
-  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_02"/>
-  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_03"/>
-  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_04"/>
-  <hasBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_05"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Não, cabeção! A outra!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_03"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Você viu dileito?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_03">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eu só vi um bolão!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_04">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_05"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolão?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_05">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Será que não era a Mônica?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_02">
-  <rdf:type rdf:resource="Panel"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_03">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cascao"/>
-  <hasBalloon rdf:resource="TM_Page_06_Panel_03_Balloon_01"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_03_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ele quis dizer 'borrão', seu engraçadinho!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_04">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_05">
-  <rdf:type rdf:resource="Panel"/>
-  <hasCharacter rdf:resource="Monica"/>
-  <hasCharacter rdf:resource="Cebolinha"/>
-  <hasCharacter rdf:resource="Cascao"/>
 </owl:NamedIndividual>
 
 <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">

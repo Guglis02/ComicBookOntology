@@ -203,8 +203,8 @@ with onto:
 
             panel = createPanel(page_instance, i, 3, mcc)
             text = "Glup!"
-            createBalloon(panel, i, 3, 1, cebolinha, text)
-            createBalloon(panel, i, 3, 2, monica, text)
+            balloon = createBalloon(panel, i, 3, 1, cebolinha, text)
+            monica.says.append(balloon)
             text = "Oh!"
             balloon = createBalloon(panel, i, 3, 3, cascao, text)
             text = "Ali tem uma que parece uma ovelinha!"
