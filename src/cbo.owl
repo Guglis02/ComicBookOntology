@@ -2493,8 +2493,6 @@
   <hasPage rdf:resource="TM_Page_72"/>
   <hasPage rdf:resource="TM_Page_73"/>
   <hasPage rdf:resource="TM_Page_74"/>
-  <story rdf:resource="Qual_é_o_Peixe?"/>
-  <story rdf:resource="Apresenta_pra_Mim?"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="Ja_Chegou_O_Disco_Voador">
@@ -3143,65 +3141,6 @@
   <says rdf:resource="TM_Page_05_Panel_03_Balloon_01"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_02"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Por que?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elas contaram alguma piada pra você?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Como é que é?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_02"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É mesmo!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_03"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hê, hê!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_03">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Que engraçado!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_01_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glup!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <mentionsCharacter rdf:resource="Cascao"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cascão!! Aquilo não era uma nuvem!!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Não, cabeção! A outra!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_03_Balloon_01">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ele quis dizer 'borrão', seu engraçadinho!</hasText>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="Cebolinha">
   <rdf:type rdf:resource="Character"/>
   <says rdf:resource="TM_Page_03_Panel_02_Balloon_01"/>
@@ -3219,14 +3158,48 @@
   <says rdf:resource="TM_Page_06_Panel_01_Balloon_03"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="Cascao">
+  <rdf:type rdf:resource="Character"/>
+  <says rdf:resource="TM_Page_03_Panel_03_Balloon_04"/>
+  <says rdf:resource="TM_Page_04_Panel_02_Balloon_02"/>
+  <says rdf:resource="TM_Page_04_Panel_04_Balloon_04"/>
+  <says rdf:resource="TM_Page_04_Panel_04_Balloon_05"/>
+  <says rdf:resource="TM_Page_05_Panel_01_Balloon_02"/>
+  <says rdf:resource="TM_Page_05_Panel_02_Balloon_01"/>
+  <says rdf:resource="TM_Page_05_Panel_02_Balloon_02"/>
+  <says rdf:resource="TM_Page_05_Panel_03_Balloon_03"/>
+  <says rdf:resource="TM_Page_05_Panel_03_Balloon_04"/>
+  <says rdf:resource="TM_Page_05_Panel_04_Balloon_03"/>
+  <says rdf:resource="TM_Page_05_Panel_04_Balloon_04"/>
+  <says rdf:resource="TM_Page_06_Panel_01_Balloon_04"/>
+  <says rdf:resource="TM_Page_06_Panel_01_Balloon_05"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="TM_Page_03_Panel_02_Balloon_01">
   <rdf:type rdf:resource="Balloon"/>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vocês já pelcebelam como as nuvens são engraçadas?</hasText>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_03_Panel_03_Balloon_02"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Por que?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elas contaram alguma piada pra você?</hasText>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_03">
   <rdf:type rdf:resource="Balloon"/>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hunf!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_04">
+  <rdf:type rdf:resource="Balloon"/>
+  <mentionsCharacter rdf:resource="Cebolinha"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engraçadas como, Cebolinha?</hasText>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="TM_Page_04_Panel_01_Balloon_01">
@@ -3250,6 +3223,16 @@
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquela lembla um elefante!</hasText>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_02_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E aquela outra parece um hipopótamo deitado na grama fazendo bolhas de sabão!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Como é que é?</hasText>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="TM_Page_04_Panel_03_Balloon_02">
   <rdf:type rdf:resource="Balloon"/>
   <mentionsCharacter rdf:resource="Monica"/>
@@ -3267,53 +3250,21 @@
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">...E ali um balco à vela!</hasText>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_01">
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_01">
   <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glup!</hasText>
+  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_02"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É mesmo!</hasText>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_02">
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_02">
   <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ela um disco voador de veldade!!</hasText>
+  <hasNextBalloon rdf:resource="TM_Page_04_Panel_04_Balloon_03"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hê, hê!</hasText>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_02">
+<owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_03">
   <rdf:type rdf:resource="Balloon"/>
-  <hasNextBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_03"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Você viu dileito?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_03">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eu só vi um bolão!</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="Cascao">
-  <rdf:type rdf:resource="Character"/>
-  <says rdf:resource="TM_Page_03_Panel_03_Balloon_04"/>
-  <says rdf:resource="TM_Page_04_Panel_02_Balloon_02"/>
-  <says rdf:resource="TM_Page_04_Panel_04_Balloon_04"/>
-  <says rdf:resource="TM_Page_04_Panel_04_Balloon_05"/>
-  <says rdf:resource="TM_Page_05_Panel_01_Balloon_02"/>
-  <says rdf:resource="TM_Page_05_Panel_02_Balloon_01"/>
-  <says rdf:resource="TM_Page_05_Panel_02_Balloon_02"/>
-  <says rdf:resource="TM_Page_05_Panel_03_Balloon_03"/>
-  <says rdf:resource="TM_Page_05_Panel_03_Balloon_04"/>
-  <says rdf:resource="TM_Page_05_Panel_04_Balloon_03"/>
-  <says rdf:resource="TM_Page_05_Panel_04_Balloon_04"/>
-  <says rdf:resource="TM_Page_06_Panel_01_Balloon_04"/>
-  <says rdf:resource="TM_Page_06_Panel_01_Balloon_05"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_03_Panel_03_Balloon_04">
-  <rdf:type rdf:resource="Balloon"/>
-  <mentionsCharacter rdf:resource="Cebolinha"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engraçadas como, Cebolinha?</hasText>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="TM_Page_04_Panel_02_Balloon_02">
-  <rdf:type rdf:resource="Balloon"/>
-  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E aquela outra parece um hipopótamo deitado na grama fazendo bolhas de sabão!</hasText>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Que engraçado!</hasText>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_04">
@@ -3326,6 +3277,11 @@
 <owl:NamedIndividual rdf:about="TM_Page_04_Panel_04_Balloon_05">
   <rdf:type rdf:resource="Balloon"/>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olha só!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qual?</hasText>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="TM_Page_05_Panel_01_Balloon_02">
@@ -3344,6 +3300,16 @@
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">...sumiu!</hasText>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glup!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glup!</hasText>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_03">
   <rdf:type rdf:resource="Balloon"/>
   <hasNextBalloon rdf:resource="TM_Page_05_Panel_03_Balloon_04"/>
@@ -3353,6 +3319,17 @@
 <owl:NamedIndividual rdf:about="TM_Page_05_Panel_03_Balloon_04">
   <rdf:type rdf:resource="Balloon"/>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali tem uma que parece uma ovelinha!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <mentionsCharacter rdf:resource="Cascao"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cascão!! Aquilo não era uma nuvem!!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ela um disco voador de veldade!!</hasText>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="TM_Page_05_Panel_04_Balloon_03">
@@ -3366,6 +3343,22 @@
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ovelha?!</hasText>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Não, cabeção! A outra!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_03"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Você viu dileito?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eu só vi um bolão!</hasText>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_04">
   <rdf:type rdf:resource="Balloon"/>
   <hasNextBalloon rdf:resource="TM_Page_06_Panel_01_Balloon_05"/>
@@ -3375,6 +3368,15 @@
 <owl:NamedIndividual rdf:about="TM_Page_06_Panel_01_Balloon_05">
   <rdf:type rdf:resource="Balloon"/>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Será que não era a Mônica?</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="TM_Page_06_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ele quis dizer 'borrão', seu engraçadinho!</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Disco_Voador">
+  <rdf:type rdf:resource="Topic"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="Magali">
@@ -3449,28 +3451,695 @@
   <rdf:type rdf:resource="Character"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="Disco_Voador">
+<owl:NamedIndividual rdf:about="Batman_Renascimento_001_Panini">
+  <rdf:type rdf:resource="Issue"/>
+  <story rdf:resource="Eu_Sou_Gotham_Parte_1"/>
+  <story rdf:resource="Eu_Sou_Gotham_Parte_2"/>
+  <hasPage rdf:resource="Batman_Page_01"/>
+  <hasPage rdf:resource="Batman_Page_02"/>
+  <hasPage rdf:resource="Batman_Page_03"/>
+  <hasPage rdf:resource="Batman_Page_04"/>
+  <hasPage rdf:resource="Batman_Page_05"/>
+  <hasPage rdf:resource="Batman_Page_06"/>
+  <hasPage rdf:resource="Batman_Page_07"/>
+  <hasPage rdf:resource="Batman_Page_08"/>
+  <hasPage rdf:resource="Batman_Page_09"/>
+  <hasPage rdf:resource="Batman_Page_10"/>
+  <hasPage rdf:resource="Batman_Page_11"/>
+  <hasPage rdf:resource="Batman_Page_12"/>
+  <hasPage rdf:resource="Batman_Page_13"/>
+  <hasPage rdf:resource="Batman_Page_14"/>
+  <hasPage rdf:resource="Batman_Page_15"/>
+  <hasPage rdf:resource="Batman_Page_16"/>
+  <hasPage rdf:resource="Batman_Page_17"/>
+  <hasPage rdf:resource="Batman_Page_18"/>
+  <hasPage rdf:resource="Batman_Page_19"/>
+  <hasPage rdf:resource="Batman_Page_20"/>
+  <hasPage rdf:resource="Batman_Page_21"/>
+  <hasPage rdf:resource="Batman_Page_22"/>
+  <hasPage rdf:resource="Batman_Page_23"/>
+  <hasPage rdf:resource="Batman_Page_24"/>
+  <hasPage rdf:resource="Batman_Page_25"/>
+  <hasPage rdf:resource="Batman_Page_26"/>
+  <hasPage rdf:resource="Batman_Page_27"/>
+  <hasPage rdf:resource="Batman_Page_28"/>
+  <hasPage rdf:resource="Batman_Page_29"/>
+  <hasPage rdf:resource="Batman_Page_30"/>
+  <hasPage rdf:resource="Batman_Page_31"/>
+  <hasPage rdf:resource="Batman_Page_32"/>
+  <hasPage rdf:resource="Batman_Page_33"/>
+  <hasPage rdf:resource="Batman_Page_34"/>
+  <hasPage rdf:resource="Batman_Page_35"/>
+  <hasPage rdf:resource="Batman_Page_36"/>
+  <hasPage rdf:resource="Batman_Page_37"/>
+  <hasPage rdf:resource="Batman_Page_38"/>
+  <hasPage rdf:resource="Batman_Page_39"/>
+  <hasPage rdf:resource="Batman_Page_40"/>
+  <hasPage rdf:resource="Batman_Page_41"/>
+  <hasPage rdf:resource="Batman_Page_42"/>
+  <hasPage rdf:resource="Batman_Page_43"/>
+  <hasPage rdf:resource="Batman_Page_44"/>
+  <hasPage rdf:resource="Batman_Page_45"/>
+  <hasPage rdf:resource="Batman_Page_46"/>
+  <hasPage rdf:resource="Batman_Page_47"/>
+  <hasPage rdf:resource="Batman_Page_48"/>
+  <hasPage rdf:resource="Batman_Page_49"/>
+  <hasPage rdf:resource="Batman_Page_50"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eu_Sou_Gotham_Parte_1">
+  <rdf:type rdf:resource="Story"/>
+  <hasPage rdf:resource="Batman_Page_05"/>
+  <hasPage rdf:resource="Batman_Page_06"/>
+  <hasPage rdf:resource="Batman_Page_07"/>
+  <hasPage rdf:resource="Batman_Page_08"/>
+  <hasPage rdf:resource="Batman_Page_09"/>
+  <hasPage rdf:resource="Batman_Page_10"/>
+  <hasPage rdf:resource="Batman_Page_11"/>
+  <hasPage rdf:resource="Batman_Page_12"/>
+  <hasPage rdf:resource="Batman_Page_13"/>
+  <hasPage rdf:resource="Batman_Page_14"/>
+  <hasPage rdf:resource="Batman_Page_15"/>
+  <hasPage rdf:resource="Batman_Page_16"/>
+  <hasPage rdf:resource="Batman_Page_17"/>
+  <hasPage rdf:resource="Batman_Page_18"/>
+  <hasPage rdf:resource="Batman_Page_19"/>
+  <hasPage rdf:resource="Batman_Page_20"/>
+  <hasPage rdf:resource="Batman_Page_21"/>
+  <hasPage rdf:resource="Batman_Page_22"/>
+  <hasPage rdf:resource="Batman_Page_23"/>
+  <hasPage rdf:resource="Batman_Page_24"/>
+  <right2left rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</right2left>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eu_Sou_Gotham_Parte_2">
+  <rdf:type rdf:resource="Story"/>
+  <hasPage rdf:resource="Batman_Page_27"/>
+  <hasPage rdf:resource="Batman_Page_28"/>
+  <hasPage rdf:resource="Batman_Page_29"/>
+  <hasPage rdf:resource="Batman_Page_30"/>
+  <hasPage rdf:resource="Batman_Page_31"/>
+  <hasPage rdf:resource="Batman_Page_32"/>
+  <hasPage rdf:resource="Batman_Page_33"/>
+  <hasPage rdf:resource="Batman_Page_34"/>
+  <hasPage rdf:resource="Batman_Page_35"/>
+  <hasPage rdf:resource="Batman_Page_36"/>
+  <hasPage rdf:resource="Batman_Page_37"/>
+  <hasPage rdf:resource="Batman_Page_38"/>
+  <hasPage rdf:resource="Batman_Page_39"/>
+  <hasPage rdf:resource="Batman_Page_40"/>
+  <hasPage rdf:resource="Batman_Page_41"/>
+  <hasPage rdf:resource="Batman_Page_42"/>
+  <hasPage rdf:resource="Batman_Page_43"/>
+  <hasPage rdf:resource="Batman_Page_44"/>
+  <hasPage rdf:resource="Batman_Page_45"/>
+  <hasPage rdf:resource="Batman_Page_46"/>
+  <hasPage rdf:resource="Batman_Page_47"/>
+  <hasPage rdf:resource="Batman_Page_48"/>
+  <right2left rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</right2left>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman">
+  <rdf:type rdf:resource="Character"/>
+  <says rdf:resource="Batman_Page_06_Panel_02_Balloon_01"/>
+  <says rdf:resource="Batman_Page_08_Panel_01_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gordon">
+  <rdf:type rdf:resource="Character"/>
+  <says rdf:resource="Batman_Page_06_Panel_02_Balloon_02"/>
+  <says rdf:resource="Batman_Page_06_Panel_03_Balloon_01"/>
+  <says rdf:resource="Batman_Page_06_Panel_03_Balloon_02"/>
+  <says rdf:resource="Batman_Page_06_Panel_03_Balloon_03"/>
+  <says rdf:resource="Batman_Page_06_Panel_03_Balloon_04"/>
+  <says rdf:resource="Batman_Page_06_Panel_04_Balloon_01"/>
+  <says rdf:resource="Batman_Page_06_Panel_05_Balloon_01"/>
+  <says rdf:resource="Batman_Page_06_Panel_05_Balloon_02"/>
+  <says rdf:resource="Batman_Page_06_Panel_05_Balloon_03"/>
+  <says rdf:resource="Batman_Page_06_Panel_06_Balloon_01"/>
+  <says rdf:resource="Batman_Page_06_Panel_06_Balloon_02"/>
+  <says rdf:resource="Batman_Page_07_Panel_02_Balloon_01"/>
+  <says rdf:resource="Batman_Page_07_Panel_03_Balloon_01"/>
+  <says rdf:resource="Batman_Page_07_Panel_04_Balloon_01"/>
+  <says rdf:resource="Batman_Page_07_Panel_04_Balloon_02"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Duke">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="man_1">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alfred">
+  <rdf:type rdf:resource="Character"/>
+  <says rdf:resource="Batman_Page_08_Panel_01_Balloon_02"/>
+  <says rdf:resource="Batman_Page_08_Panel_01_Balloon_03"/>
+  <says rdf:resource="Batman_Page_08_Panel_01_Balloon_04"/>
+  <says rdf:resource="Batman_Page_08_Panel_01_Balloon_05"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hugo_Strange">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gotham">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gotham_Girl">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Solomon_Grundy">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bob_Castro">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="woman_1">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pirata_Psiquico">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="general">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Amanda_Waller">
+  <rdf:type rdf:resource="Character"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Super_Heroi">
   <rdf:type rdf:resource="Topic"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="Qual_é_o_Peixe?">
-  <rdf:type rdf:resource="Story"/>
-  <hasPage rdf:resource="TM_Page_38"/>
-  <hasPage rdf:resource="TM_Page_39"/>
-  <hasPage rdf:resource="TM_Page_40"/>
-  <hasPage rdf:resource="TM_Page_41"/>
-  <right2left rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</right2left>
+<owl:NamedIndividual rdf:about="Conspiracao">
+  <rdf:type rdf:resource="Topic"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="Apresenta_pra_Mim?">
-  <rdf:type rdf:resource="Story"/>
-  <hasPage rdf:resource="TM_Page_43"/>
-  <hasPage rdf:resource="TM_Page_44"/>
-  <hasPage rdf:resource="TM_Page_45"/>
-  <hasPage rdf:resource="TM_Page_46"/>
-  <hasPage rdf:resource="TM_Page_47"/>
-  <hasPage rdf:resource="TM_Page_48"/>
-  <right2left rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</right2left>
+<owl:NamedIndividual rdf:about="Batman_Page_01">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_02">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_03">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_04">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_05">
+  <rdf:type rdf:resource="Page"/>
+  <hasPanel rdf:resource="Batman_Page_05_Panel_01"/>
+  <hasPanel rdf:resource="Batman_Page_05_Panel_02"/>
+  <hasPanel rdf:resource="Batman_Page_05_Panel_03"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_05_Panel_01">
+  <rdf:type rdf:resource="Panel"/>
+  <hasBalloon rdf:resource="Batman_Page_05_Panel_01_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_05_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senhoras e senhores, estamos iniciando nossa aterrissagem em Gotham.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_05_Panel_02">
+  <rdf:type rdf:resource="Panel"/>
+  <hasBalloon rdf:resource="Batman_Page_05_Panel_02_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_05_Panel_02_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Por favor, certifique-se de que seu cinto de segurança está bem afivelado, o encosto de sua poltrona na posição vertical e sua mesa fechada e travada.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_05_Panel_03">
+  <rdf:type rdf:resource="Panel"/>
+  <hasBalloon rdf:resource="Batman_Page_05_Panel_03_Balloon_01"/>
+  <hasBalloon rdf:resource="Batman_Page_05_Panel_03_Balloon_02"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_05_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suas bagagens de mão devem permanecer guardadas abaixo da sua poltrona à sua frente ou no compartimento acima de sua cabeça.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_05_Panel_03_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obrigado.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06">
+  <rdf:type rdf:resource="Page"/>
+  <hasPanel rdf:resource="Batman_Page_06_Panel_01"/>
+  <hasPanel rdf:resource="Batman_Page_06_Panel_02"/>
+  <hasPanel rdf:resource="Batman_Page_06_Panel_03"/>
+  <hasPanel rdf:resource="Batman_Page_06_Panel_04"/>
+  <hasPanel rdf:resource="Batman_Page_06_Panel_05"/>
+  <hasPanel rdf:resource="Batman_Page_06_Panel_06"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_01">
+  <rdf:type rdf:resource="Panel"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_01_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recebi o memo ainda a pouco, o pessoal de uniforme não gosta de compartilhar nada.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_02">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Batman"/>
+  <hasCharacter rdf:resource="Gordon"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_02_Balloon_01"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_02_Balloon_02"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_02_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O ataque ao forte Marshall.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_02_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <addressesTopic rdf:resource="Conspiracao"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Não, o ataque insanamente confidencial ao forte Marshall, do qual ninguém nesta maldita terra sabe a respeito, exceto o secretário de defesa e eu.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_03">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Gordon"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_03_Balloon_01"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_03_Balloon_02"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_03_Balloon_03"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_03_Balloon_04"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="Batman_Page_06_Panel_03_Balloon_02"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E você.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_03_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparentemente.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_03_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="Batman_Page_06_Panel_03_Balloon_04"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aconteceu semana passada, ao que parece. Uma semana, que insano</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_03_Balloon_04">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Os culpados pegaram três mísseis terra-ar.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_04">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Batman"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_04_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_04_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meus rapazes tropeçaram há uma hora em dois deles, em um ataque a uma célula do Kobra.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_05">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Gordon"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_05_Balloon_01"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_05_Balloon_02"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_05_Balloon_03"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_05_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eles perseguiram um indivíduo que fugiu com o terceiro...</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_05_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="Batman_Page_06_Panel_05_Balloon_03"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">...mas o perderam em algum lugar do Narrows.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_05_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O que deixa um homem desesperado com uma grande e velha arma em algum lugar na minha cidade.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_06">
+  <rdf:type rdf:resource="Panel"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_06_Balloon_01"/>
+  <hasBalloon rdf:resource="Batman_Page_06_Panel_06_Balloon_02"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_06_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="Batman_Page_06_Panel_06_Balloon_02"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sabe, amigo, eu adoro essa coisa toda que temos no telhado.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_06_Panel_06_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mas em momentos como esse, eu queria que você apenas me passasse a droga do seu número de telefone.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07">
+  <rdf:type rdf:resource="Page"/>
+  <hasPanel rdf:resource="Batman_Page_07_Panel_01"/>
+  <hasPanel rdf:resource="Batman_Page_07_Panel_02"/>
+  <hasPanel rdf:resource="Batman_Page_07_Panel_03"/>
+  <hasPanel rdf:resource="Batman_Page_07_Panel_04"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_01">
+  <rdf:type rdf:resource="Panel"/>
+  <hasBalloon rdf:resource="Batman_Page_07_Panel_01_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KAKOOM</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_02">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Gordon"/>
+  <hasBalloon rdf:resource="Batman_Page_07_Panel_02_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_02_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santo--</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_03">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Gordon"/>
+  <hasBalloon rdf:resource="Batman_Page_07_Panel_03_Balloon_01"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_03_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precisamos arranjar--</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_04">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Gordon"/>
+  <hasBalloon rdf:resource="Batman_Page_07_Panel_04_Balloon_01"/>
+  <hasBalloon rdf:resource="Batman_Page_07_Panel_04_Balloon_02"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_04_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasNextBalloon rdf:resource="Batman_Page_07_Panel_04_Balloon_02"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Certo</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_07_Panel_04_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Certo</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_08">
+  <rdf:type rdf:resource="Page"/>
+  <hasPanel rdf:resource="Batman_Page_08_Panel_01"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_08_Panel_01">
+  <rdf:type rdf:resource="Panel"/>
+  <hasCharacter rdf:resource="Batman"/>
+  <hasBalloon rdf:resource="Batman_Page_08_Panel_01_Balloon_01"/>
+  <hasBalloon rdf:resource="Batman_Page_08_Panel_01_Balloon_02"/>
+  <hasBalloon rdf:resource="Batman_Page_08_Panel_01_Balloon_03"/>
+  <hasBalloon rdf:resource="Batman_Page_08_Panel_01_Balloon_04"/>
+  <hasBalloon rdf:resource="Batman_Page_08_Panel_01_Balloon_05"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_08_Panel_01_Balloon_01">
+  <rdf:type rdf:resource="Balloon"/>
+  <mentionsCharacter rdf:resource="Alfred"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfred.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_08_Panel_01_Balloon_02">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estou monitorando as comunicações dos pilotos agora, patrão Bruce, o avião teve dano crítico no estabilizador vertical e leme traseiro.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_08_Panel_01_Balloon_03">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O que é pior: parece que eles perderam o control do sistema hidráulico central.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_08_Panel_01_Balloon_04">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eles estipulam que cairão próximo da base do Kane Plaza, na praça Gotham, em aproximadamente seis minutos.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_08_Panel_01_Balloon_05">
+  <rdf:type rdf:resource="Balloon"/>
+  <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É uma noite de sábado, a praça está lotada.</hasText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_09">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_10">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_11">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_12">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_13">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_14">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_15">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_16">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_17">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_18">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_19">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_20">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_21">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_22">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_23">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_24">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_25">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_26">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_27">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_28">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_29">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_30">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_31">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_32">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_33">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_34">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_35">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_36">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_37">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_38">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_39">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_40">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_41">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_42">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_43">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_44">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_45">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_46">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_47">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_48">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_49">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</pageNumber>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Batman_Page_50">
+  <rdf:type rdf:resource="Page"/>
+  <pageNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</pageNumber>
 </owl:NamedIndividual>
 
 <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
